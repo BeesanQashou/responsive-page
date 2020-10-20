@@ -1,0 +1,99 @@
+html,
+body, #root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+.actions {
+  background-color: #eeee;
+  width: 40%;
+  display: flex;
+  padding: 40px 8%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messages {
+  background-color: #fff;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 10px;
+}
+.message {
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 150px;
+}
+.message-content {
+  background-color: #eeee;
+  padding: 20px;
+  border-radius: 10px;
+}
+.underline {
+  border-bottom: 2px solid rgb(103, 117, 247);
+  padding-bottom: 2px;
+}
+.message-box {
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #eee;
+}
+.message-box > input {
+  width: 100%;
+  height: 80px;
+  border: none;
+  padding: 0px 7%;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+.content {
+  margin-top: 80px;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+}
+.reserve-dinner {
+  margin-top: 40px;
+}
+.plan-vacation {
+  margin-top: 20px;
+}
+.pay-tickets {
+  margin-top: 20px;
+}
+.show-more {
+  margin-top: 30px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.confirm-goals{
+  float: right;
+  
+}
+
+.icon-chevron-down {
+  font-size: 12px;
+}
+
+
+
